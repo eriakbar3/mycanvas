@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 31px;
+  padding: 0px 10px;
+  border-right: 1px solid #e0e0e0;
+  margin: 10px 0px;
+}
+
+.App-header {
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  width: auto;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  left: 20px;
+  font-size: calc(10px + 2vmin);
+  border: 1px solid #e0e0e0;
+  margin-top: 10px;
+  border-radius: .28571429rem;
+}
+.App-header nav {
+  margin: 5px 0px;
+  list-style: none;
+  padding: 10px 5px;
+}
+.App-header nav a{
+  color: #2ED1A2;
+  margin: 0px 5px;
+  text-decoration: none;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 10px;
+}
+.App-header nav a:hover{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: #4183c4;
+  padding-right: 10px;
+}
+
+#cursor{
+  position: absolute;
+}
+.canvas{
+  width: 100%;
+  height: 99vh;
+
+}
+.App-link {
+  color: #09d3ac;
+}
+.hidden{
+  display: none;
+}
+.stationary{
+  width: 50px;
+  position: absolute;
+  top:120px;
+  left:20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+  padding: 10px 0px;
+  border-radius: .28571429rem;
+}
+.stationary-down{
+  height: 50px;
+  position: absolute;
+  bottom:50px;
+  left:70px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+  padding: 10px 0px;
+  border-radius: .28571429rem;
+}
+.stationary a i{
+  margin: 10px 0px;
+}
+.stationary-down a i{
+  margin: 0px 10px;
+}
